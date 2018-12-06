@@ -270,6 +270,11 @@ figcaption {
   padding: 0 1rem;
 }
 
+.faq:hover {
+  color: #1be6af;
+}
+
+
 @media only screen and (min-width: 25em) {
   /* responsive-header */
 
