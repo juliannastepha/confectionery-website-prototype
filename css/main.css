@@ -85,16 +85,16 @@ h1 {
 .banner-title {
   color: white;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 0;
-  line-height: 1.05;
+  line-height: 1.2;
   text-align: center;
 }
 
 .banner-info {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: italic;
   color: white;
   margin: 0;
@@ -124,19 +124,21 @@ h1 {
 }
 
 .second-banner-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   margin: 0;
-  line-height: 1.05;
+  line-height: 1.1;
   color: #fff;
 }
 
 .second-banner-info {
-  font-size: 1.125rem;
+  display: block;
+  font-size: .8rem;
   margin: 0;
   padding-bottom: 1em;
   padding-top: .5em;
   color: #fff;
+  line-height: 1.1;
 }
 
 .second-banner-content a {
@@ -154,7 +156,7 @@ h1 {
 }
 
 .btn-big {
-  font-size: 1.125em;
+  font-size: .8em;
   font-weight: bold;
 }
 
@@ -198,6 +200,32 @@ h1 {
 
   .home {
     width: 50%;
+  }
+
+  /* hero-banner */
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-info {
+    font-size: 1.125rem;
+  }
+
+  /* call-to-action-banner */
+
+  .second-banner-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .second-banner-info {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .btn-big {
+    font-size: 1.2em;
   }
 
 }
