@@ -178,6 +178,23 @@ h1 {
   margin-top: -1em;
 }
 
+  /* responsive-image-caption */
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  background-color: #d82c59;
+  color: white;
+  padding: 1rem;
+}
+
+.season-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 25em) {
   /* responsive-header */
 
@@ -242,6 +259,23 @@ h1 {
     width: auto;
   }
 
+  /* responsive-image-caption */
+
+  figure {
+    position: relative;
+    overflow: hidden;
+  }
+
+  figcaption {
+    position: absolute;
+    width: 58%;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: rgba(216, 44, 89, .72);
+    border-radius: .8rem;
+    padding-bottom: .2rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -284,6 +318,12 @@ h1 {
     padding-left: 1rem;
   }
 
+  /* responsive-image-caption */
+
+  figcaption {
+    width: 41%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -291,6 +331,12 @@ h1 {
 
   html {
     font-size: 130%;
+  }
+
+  /* responsive-image-caption */
+
+  figcaption {
+    width: 30%;
   }
 
 }
