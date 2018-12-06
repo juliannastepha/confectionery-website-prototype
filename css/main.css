@@ -69,7 +69,6 @@ h1 {
 .banner-content {
   position: absolute;
   max-width: 50em;
-  min-width: 320px;
   width: 100%;
   bottom: 1.5rem;
   left: 50%;
@@ -103,6 +102,79 @@ h1 {
   text-align: center;
 }
 
+/* call-to-action-banner */
+
+.second-banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.second-banner-content {
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 45em;
+  width: 100%;
+  padding-top: .5em;
+}
+
+.second-banner-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 0;
+  line-height: 1.05;
+  color: #fff;
+}
+
+.second-banner-info {
+  font-size: 1.125rem;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-top: .5em;
+  color: #fff;
+}
+
+.second-banner-content a {
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .5em .75em;
+}
+
+.btn {
+  background-color: #d82c59;
+  color: #fff;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d82c59;
+}
+
+.btn-big {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #1be6af;
+  border-color: #1be6af;
+  color: #000;
+}
+
+.hero {
+  width: 33%;
+  margin: 1em;
+  margin-top: -1em;
+}
+
+.second-banner-words {
+  width: 57%;
+  margin: 1em;
+  margin-top: -1em;
+}
 
 @media only screen and (min-width: 25em) {
   /* responsive-header */
